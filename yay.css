@@ -1,0 +1,200 @@
+.container {
+    width: 100%;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #19232d;
+    color: #f0f8ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section  lala*/
+.section_lala {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color: #203040;
+    width: 100%;
+    color: white;
+    padding: 5px;
+}
+
+/* Header */
+.header_mobil {
+    display: flex;
+    padding-right: 4px;
+    margin-right: auto;
+}
+
+.header_time {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header_battery {
+    display: flex;
+    text-align: right;
+    margin-left: auto;
+}
+
+.header_oper {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header_prosent {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header {
+    font-size: 10px;
+    font-weight: 1px;
+}
+
+/* Osnova */
+.osnova {
+    padding-top: 10px;
+    background-color: #203040;
+}
+
+.osnova_img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.osnova_name {
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.osnova_time {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+/* Icons */
+.icons {
+    display: flex;
+    background-color: #203040;
+    width: 100%;
+    color: #2177c2;
+    padding: 0 0 13px;
+}
+
+.icon_wrapper {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon_title {
+    color: #fff;
+    margin-top: 6px;
+    font-size: 12px;
+}
+.icon_krug {
+    display: flex; 
+    width: 40px;
+    height: 40px;
+    color:#fff;
+    background-color: #2177c2;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Myself */
+.myself {
+    display: block;
+    width: 100%;
+    background-color: #203040;
+    margin-top: 15px;
+    padding: 7px 7px;
+}
+
+.number,
+.nick {
+    color: #2177c2;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.myself_user,
+.myself_self,
+.myself_phone {
+    padding: 5px;
+}
+
+.myself_mobil {
+    border-bottom: 1px solid #788999;
+}
+
+.myself_name {
+    border-bottom: #788999 solid 1px;
+}
+.myself_number {
+    padding-bottom: 10px;
+}
+.myself_nick {
+    padding-bottom: 10px;
+}
+.myself_text {
+    padding-bottom: 6px;
+}
+
+/* Media */
+.media_photo {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #203040;
+}
+
+.media_item {
+    width: 20%;
+    border: 1px solid #fff;
+}
+
+.media_item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.media_menu {
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: #203040;
+}
+
+.media_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media_name {
+    color: #2177c2;
+}
